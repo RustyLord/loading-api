@@ -1,3 +1,27 @@
 body {
-    font-size: 15pt;
+  margin: 0;
+}
+
+.top-bar {
+  background: #000B86;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-bar-time {
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.rfsh {
+  margin-left: 65%;
+}
+@media screen and (max-width: 650px){
+  .rfsh {
+    margin-left: 4.2rem;
+  }
 }
