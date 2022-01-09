@@ -11,4 +11,15 @@ setInterval(
 
     topBarTime.innerHTML = currentDate
     // console.log(date)
+    
   }, 100)
+
+setInterval(() => {
+  window.addEventListener('load', () => {
+    document.getElementById('refresh').innerHTML = '<i class="material-icons rfsh" id="refresh">refresh</i>'
+  })
+},500)
+
+function loaded(){
+    document.getElementById('refresh').innerHTML = '<i class="material-icons rfsh" id="refresh">refresh</i>'
+}
