@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .top-bar {
-  background: #000B86;
+  background: #000A74;
   color: white;
   font-family: 'Courier New', Courier, monospace;
   width: 100%;
@@ -26,7 +29,7 @@ body {
   flex-direction: row; 
   height: 3rem;
   width: 100%;
-  box-shadow: 0px 1px 2px black;
+  box-shadow: 0px 1px 2px #7A7A7A8A;
   text-align: center;
 }
 .navbar {
@@ -38,6 +41,7 @@ body {
 }
 .nav-btn:hover{
     background: red;
+    border-radius: 2px;
 }
 .nav-btns{
   right: 0;
@@ -47,16 +51,26 @@ body {
   height: max-content;
 }
 #textOfNav{
-  margin: .5rem;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  padding: .5rem;
+  font-weight: bold;
 }
 .menu {
   padding: .4rem;
 }
-.menu:hover {
-  background: #FFFFFF;
+.hover:hover {
+  background: #C9C9C9;
+  border-radius: 2px;
 }
 @media screen and (max-width: 650px){
   .rfsh {
     margin-left: 7.8rem;
+    font-size: 16px;
+  }
+  .top-bar{
+  font-size: 12px;
+   height: 20px;
   }
 }
