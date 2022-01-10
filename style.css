@@ -21,7 +21,9 @@ body {
   margin-right: 3rem;
 }
 .rfsh {
-  margin-left: 45rem;
+  position: absolute;
+  z-index: 2;
+  right: 0;
 }
 .bg-nav {
   background: whitesmoke;
@@ -65,9 +67,8 @@ body {
   border-radius: 2px;
 }
 @media screen and (max-width: 650px){
-  .rfsh {
-    margin-left: 7.8rem;
-    font-size: 16px;
+  .rfsh{
+    font-size: 17px;
   }
   .top-bar{
   font-size: 12px;
