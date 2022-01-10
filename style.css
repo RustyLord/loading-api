@@ -18,10 +18,45 @@ body {
   margin-right: 3rem;
 }
 .rfsh {
-  margin-left: 42rem;
+  margin-left: 45rem;
+}
+.bg-nav {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: row; 
+  height: 3rem;
+  width: 100%;
+  box-shadow: 0px 1px 2px black;
+  text-align: center;
+}
+.navbar {
+  margin: .3rem
+}
+.nav-btn {
+  padding: .4rem;
+  margin: 0rem;
+}
+.nav-btn:hover{
+    background: red;
+}
+.nav-btns{
+  right: 0;
+  position: absolute;
+  z-index: 10;
+  width: max-content;
+  height: max-content;
+}
+#textOfNav{
+  margin: .5rem;
+}
+.menu {
+  padding: .4rem;
+}
+.menu:hover {
+  background: #FFFFFF;
 }
 @media screen and (max-width: 650px){
   .rfsh {
-    margin-left: 4.2rem;
+    margin-left: 7.8rem;
   }
 }

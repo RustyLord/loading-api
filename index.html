@@ -22,10 +22,22 @@
   <div class="top-bar" id="top-bar">
     <span>light</span>
     <center><span class="top-bar-time" id="time"></span></center>
-    <i id="refresh"><i class="material-icons rfsh w3-spin">refresh</i></i>
+    <span id="refresh"><i class="material-icons rfsh w3-spin" onclick="refresh(event)">refresh</i></span>
+  </div>
+  <div class="bg-nav">
+    <div class="navbar">
+      <b class="material-icons menu">menu</b>
+      <span id="textOfNav">UNtitled.txt</span>
+      <span class="nav-btns">
+        <b class="material-icons nav-btn">more_vert</b>
+        <b class="material-icons nav-btn">tab</b>
+        <b class="material-icons nav-btn">close</b>
+      </span>
+    </div>
   </div>
   <!-- Project -->
   <script src="main.js"></script>
+  <script src="src/settings/settings.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
