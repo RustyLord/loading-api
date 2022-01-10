@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-
+*{
+  transition: .5s;
+}
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -33,6 +35,8 @@ body {
   width: 100%;
   box-shadow: 0px 1px 2px #7A7A7A8A;
   text-align: center;
+  position: -webkit-sticky;
+  z-index: 2;
 }
 .navbar {
   margin: .3rem
@@ -65,6 +69,27 @@ body {
 .hover:hover {
   background: #C9C9C9;
   border-radius: 2px;
+}
+.bg-leftbar {
+  background: #E8E8E8;
+  height: 100vh;
+  width: 4rem;
+  position: fixed;
+  left: 0;
+  overflow: auto;
+  z-index: 1;
+  box-shadow: 0px 1px 2px #6E6E6EC7;
+}
+.leftbar-icons{
+  padding: 1.1rem;
+  margin: 0rem;
+}
+.settings {
+  position: fixed;
+  z-index: 2;
+  display: block;
+  bottom: 0;
+  border-top: 1px solid #676767B0;
 }
 @media screen and (max-width: 650px){
   .rfsh{
