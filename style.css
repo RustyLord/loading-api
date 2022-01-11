@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
 }
 
 .top-bar {
@@ -15,6 +16,8 @@ body {
   font-size: 15px;
   display: flex;
   flex-direction: row;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .top-bar-time {
@@ -138,12 +141,37 @@ body {
 .yellow {
   color: #D3CA00;
 }
+#tabs{
+  background: white;
+  box-shadow: 1px 1px 2px 1px #42445A;
+  padding: 1px;
+  width: 93%;
+  max-width: 93%;
+}
+textarea{
+  top: 7rem;
+  left: 5.5rem;
+  position: absolute;
+  
+  width: 92%;
+  height: 94vh;
+}
 @media screen and (max-width: 650px){
   .rfsh{
     font-size: 17px;
   }
+  *{
+    transition: .3s;
+  }
   .top-bar{
   font-size: 12px;
    height: 20px;
+  }
+  textarea{
+    width: 81%;
+    height: 90vh;
+  }
+  #tabs{
+    width: max-content;
   }
 }

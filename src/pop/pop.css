@@ -1,0 +1,40 @@
+#preloader {
+  background: white;
+  position: fixed;
+  z-index: 100;
+  top: 40%;
+  left: 20%;
+  width: 30rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  box-shadow: 1px 1px 3px 1px #4D4D4DCF;
+}
+#preloader button{
+  margin: 1rem;
+  color: #000000;
+  background: #FF3D01;
+  border: 1px #7C7C7C solid;
+  margin-left: 80%
+}
+#preloader hr{
+  background: #7A7A7ABF;
+}
+.progress {
+  background: #0070FFB8;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 5px;
+}
+.loader{
+  background: #2500F0;
+  display: block;
+  width: 56%;
+  height: 2px;
+  margin-bottom: 5px;
+}
+#preloader h5{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace
+}
