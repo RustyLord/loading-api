@@ -74,10 +74,11 @@ body {
   background: #E8E8E8;
   height: 100vh;
   width: 4rem;
-  position: fixed;
+  position: absolute;
   left: 0;
   overflow: auto;
   z-index: 1;
+  top: 4.4rem;
   box-shadow: 0px 1px 2px #6E6E6EC7;
 }
 .leftbar-icons{
@@ -90,6 +91,52 @@ body {
   display: block;
   bottom: 0;
   border-top: 1px solid #676767B0;
+}
+.bg-ln{
+  background: #42445A;
+  color: white;
+  width: 1.5rem;
+  position: absolute;
+  left: 4rem;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  top: 6.5rem;
+}
+.bg-ln p{
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  margin: .1rem;
+}
+.bg-tabs{
+  background: white;
+  text-align: center;
+  border: 1px solid #7F7F7F;
+  width: max-content;
+  margin-right: .1rem;
+}
+.bg-tabs:disabled{
+  color: #7F7F7F;
+}
+.bg-tabs span{
+  padding: .4rem;
+}
+#tabs{
+  position: absolute;
+  z-index: 2;
+  left: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+.red{
+  color: red;
+}
+.yellow {
+  color: #D3CA00;
 }
 @media screen and (max-width: 650px){
   .rfsh{

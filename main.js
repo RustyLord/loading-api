@@ -35,7 +35,5 @@ function refresh(e){
      document.getElementById('refresh').innerHTML = '<i class="material-icons rfsh w3-spin" id="refresh" onclick="refresh(event)">refresh</i>'
      window.location.reload()
 }
-alert($('#left-btn'))
-$('#left-btn').click(()=>{
-  $(".bg-leftbar").css("width","10rem")
-})
+
+let btnLft = $('#left-btn-csn')
