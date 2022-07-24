@@ -1,1 +1,2 @@
-var data = {name: "null"}
+var data = {name: "null"};
+alert("successfuly")
