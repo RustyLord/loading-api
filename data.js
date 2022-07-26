@@ -1,2 +1,3 @@
-var data = {name: "null"};
-alert("successfuly")
+{
+    name: "null",
+}
